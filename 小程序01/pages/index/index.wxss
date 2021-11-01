@@ -1,0 +1,24 @@
+/**index.wxss**/
+.hometitle {
+  color: #1D1D1F;
+
+}
+.out {
+  display: flex;
+  flex-flow: nowrap;
+}
+.homeBox {
+  width: 100px;
+  height: 100px;
+  background: rgb(10, 194, 226);
+  margin-right: 2px; 
+  flex: 0 0 100px
+}
+.item {
+  width: 100%;
+  height: 00px;
+}
+.imag {
+  width: 100%;
+  height: 200px;
+}

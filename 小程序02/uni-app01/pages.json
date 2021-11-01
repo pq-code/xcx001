@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/shoppingcart/shoppingcart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/personalcenter/personalcenter",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F5F5F7", // 头部颜色
+		"enablePullDownRefresh": true, // 是否可以下拉
+		"backgroundColor": "#F5F5F7" // 下拉背景
+	},
+	"tabBar": {
+		"color":"#84C4FF",// 未选中时的颜色
+		"selectedColor":"#4CD964",// 未选时的颜色
+		"backgroundColor":"#F5F5F7",// 背景色
+		"borderStyle": "#F5F5F7",// 上边框颜色
+		"list":[
+			{"text": "首页",
+				"pagePath": "pages/index/index"
+				// "iconPath": ""     // 图标路径
+				// "selectedIconPath":"" // 选中时的图片路径
+			
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/classification/classification"
+				// "iconPath": ""
+				// "selectedIconPath":""
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/shoppingcart/shoppingcart"
+				// "iconPath": ""
+				// "selectedIconPath":""
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/personalcenter/personalcenter"
+				// "iconPath": ""
+				// "selectedIconPath":""
+			}
+		]	
+		
+	}
+	
+}

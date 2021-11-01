@@ -1,0 +1,1 @@
+<view class="content"><view class="text-area"><text class="title">{{title}}</text></view><navigation-bar vue-id="8dd740cc-1" bind:__l="__l" vue-slots="{{['default']}}"><title vue-id="{{('8dd740cc-2')+','+('8dd740cc-1')}}" bind:__l="__l" vue-slots="{{['default']}}">1231</title></navigation-bar></view>

@@ -1,0 +1,23 @@
+<!--index.wxml-->
+  <scroll-view scroll-x>
+    <view class="out">
+      <view class="homeBox">111</view>
+      <view class="homeBox">222</view>
+      <view class="homeBox">333</view>
+      <view class="homeBox">444</view>
+      <view class="homeBox">555</view>
+    </view>
+  </scroll-view>
+
+  <swiper indicator-dots autoplay interval='2000' indicator-color="rgba(255,255,255,0.5)" 
+  indicator-active-color="#38FF4C">
+    <swiper-item class="item">
+      <image src="/images/1.png" class="imag"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/2.png" class="imag"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/3.png" class="imag"></image>
+    </swiper-item>
+  </swiper>

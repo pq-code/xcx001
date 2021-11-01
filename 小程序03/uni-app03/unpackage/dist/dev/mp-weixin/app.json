@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/shoppingcart/shoppingcart",
+    "pages/personalcenter/personalcenter"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "nui-app",
+    "navigationBarBackgroundColor": "#F5F5F7",
+    "backgroundColor": "#f7e109"
+  },
+  "tabBar": {
+    "color": "#007AFF",
+    "selectedColor": "#4CD964",
+    "backgroundColor": "#333333",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/classification/classification"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/shoppingcart/shoppingcart"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personalcenter/personalcenter"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

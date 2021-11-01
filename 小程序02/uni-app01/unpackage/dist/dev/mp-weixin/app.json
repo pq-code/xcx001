@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/shoppingcart/shoppingcart",
+    "pages/personalcenter/personalcenter"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F5F5F7",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#F5F5F7"
+  },
+  "tabBar": {
+    "color": "#84C4FF",
+    "selectedColor": "#4CD964",
+    "backgroundColor": "#F5F5F7",
+    "borderStyle": "#F5F5F7",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "分类",
+        "pagePath": "pages/classification/classification"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/shoppingcart/shoppingcart"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personalcenter/personalcenter"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap70.json"
+}

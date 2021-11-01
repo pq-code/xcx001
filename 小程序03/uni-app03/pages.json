@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor":"#0000f7",// 首页标题背景
+				"backgroundColor": "#f7e109" ,// 下拉刷新背景颜色 
+				"enablePullDownRefresh" : true// 是否可以下拉刷新
+			}
+		},
+		{
+			"path": "pages/classification/classification",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/shoppingcart/shoppingcart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/personalcenter/personalcenter",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "nui-app", // 标题
+		"navigationBarBackgroundColor": "#F5F5F7", // 标题背景颜色
+		"backgroundColor": "#f7e109" // 背景颜色
+	},
+	"tabBar": {
+		"color": "#007AFF" ,// 未选中的颜色
+		"selectedColor":"#4CD964", // 选中的颜色
+		"backgroundColor":"#333333", // 背景颜色
+		"list":[
+			{"text": "首页",
+				"pagePath": "pages/index/index"
+				// "iconPath": ""     // 图标路径
+				// "selectedIconPath":"" // 选中时的图片路径
+			},
+			{
+				"text": "分类",
+				"pagePath": "pages/classification/classification"
+				// "iconPath": ""
+				// "selectedIconPath":""
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/shoppingcart/shoppingcart"
+				// "iconPath": ""
+				// "selectedIconPath":""
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/personalcenter/personalcenter"
+				// "iconPath": ""
+				// "selectedIconPath":""
+			}
+		]
+	}
+}
