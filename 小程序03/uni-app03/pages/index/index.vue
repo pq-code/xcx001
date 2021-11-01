@@ -1,13 +1,14 @@
 <template>
 	<view>
-		<view class="home-title">品牌动态</view>
-	</view>
-<!-- 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
+		<text class="home-title">文本</text>
+
+		<view class="home-title">
+			<text user-select="true">文字可以选中</text>
 		</view>
-	</view> -->
+		<view class="home-title">
+			<text selectable="true">文字可以选中</text>
+		</view>
+	</view>
 </template>
 
 <script>

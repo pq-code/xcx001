@@ -9,13 +9,12 @@
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "nui-app",
-    "navigationBarBackgroundColor": "#F5F5F7",
-    "backgroundColor": "#f7e109"
+    "navigationBarBackgroundColor": "#F5F5F7"
   },
   "tabBar": {
     "color": "#007AFF",
     "selectedColor": "#4CD964",
-    "backgroundColor": "#333333",
+    "borderStyle": "white",
     "list": [
       {
         "text": "首页",

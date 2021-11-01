@@ -1,1 +1,1 @@
-<view><view class="home-title">品牌动态</view></view>
+<view><text class="home-title">文本</text><view class="home-title"><text user-select="true">文字可以选中</text></view><view class="home-title"><text selectable="true">文字可以选中</text></view></view>

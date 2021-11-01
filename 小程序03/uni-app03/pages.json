@@ -4,8 +4,8 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "首页",
-				"navigationBarBackgroundColor":"#0000f7",// 首页标题背景
-				"backgroundColor": "#f7e109" ,// 下拉刷新背景颜色 
+				// "navigationBarBackgroundColor":"#0000f7",// 首页标题背景
+				// "backgroundColor": "#f7e109" ,// 下拉刷新背景颜色 
 				"enablePullDownRefresh" : true// 是否可以下拉刷新
 			}
 		},
@@ -31,13 +31,17 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "nui-app", // 标题
-		"navigationBarBackgroundColor": "#F5F5F7", // 标题背景颜色
-		"backgroundColor": "#f7e109" // 背景颜色
+		"navigationBarBackgroundColor": "#F5F5F7" // 标题背景颜色
+		// "backgroundColor": "#f7e109",// 背景颜色
+		
+		
 	},
 	"tabBar": {
 		"color": "#007AFF" ,// 未选中的颜色
 		"selectedColor":"#4CD964", // 选中的颜色
-		"backgroundColor":"#333333", // 背景颜色
+		// "backgroundColor":"#333333", // 背景颜色
+		"borderStyle" : "white", // tabbar 上边框的颜色，近支持black/white
+		// "position":"top", // tab页所在位置
 		"list":[
 			{"text": "首页",
 				"pagePath": "pages/index/index"
@@ -64,4 +68,14 @@
 			}
 		]
 	}
+	// "condition": {
+	// 	"current": 0,
+	// 	"list": [
+	// 		{
+	// 			"name": "详情页",
+	// 			"path": "pages/detail/detail",
+	// 			"query": "id=80"
+	// 		}
+	// 	]
+	// }
 }
