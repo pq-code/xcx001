@@ -2,12 +2,35 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
+			"navigationBarTitleText": "商城-演示",
+			// "navigationBarBackgroundColor":"#0000f7",// 首页标题背景
+			// "backgroundColor": "#f7e109" ,// 下拉刷新背景颜色 
+			"enablePullDownRefresh" : true,// 是否可以下拉刷新
+			"onReachBottomDistance": 200,// 控制下拉触底的距离
 			"style": {
-				"navigationBarTitleText": "商城-演示",
-				// "navigationBarBackgroundColor":"#0000f7",// 首页标题背景
-				// "backgroundColor": "#f7e109" ,// 下拉刷新背景颜色 
-				"enablePullDownRefresh" : true,// 是否可以下拉刷新
-				"onReachBottomDistance": 200// 控制下拉触底的距离
+				"app-plus":{
+					"scrollIndicator":"nooe",
+					"titleNView":{
+						"searchInput":{
+							"align":"left",
+							"backgroundColor":"#e7edf2",
+							"borderRadius":"4rpx",
+							"disabled":"true",
+							"placeholder":"搜索"
+							// "placeholderColor":"#e7edf2"
+						},
+						"buttons":[
+							{
+								"color":"#007AFF",
+								"colorPressed":"#ffffff",
+								"float":"right",
+								"fontSize":"22rpx",
+								"fontSrc":"../../../static/coen/iconfangp.png",
+								"text": ""
+							}
+						]
+					}
+				}
 			}
 		},
 		{
@@ -44,7 +67,7 @@
 		"borderStyle" : "white", // tabbar 上边框的颜色，近支持black/white
 		// "position":"top", // tab页所在位置
 		"list":[
-			{"text": "首页",
+			{"text": "得物演示",
 				"pagePath": "pages/index/index"
 				// "iconPath": ""     // 图标路径
 				// "selectedIconPath":"" // 选中时的图片路径
