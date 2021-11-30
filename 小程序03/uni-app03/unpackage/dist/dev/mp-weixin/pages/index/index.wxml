@@ -1,1 +1,1 @@
-<view><text class="home-title">文本</text><view class="home-title"><text user-select="true">文字可以选中</text></view><view class="home-title"><text selectable="true">文字可以选中</text></view></view>
+<van-sticky vue-id="8dd740cc-1" bind:__l="__l" vue-slots="{{['default']}}"><view class="dewu-hd"><view class="dewu-hd-search" bindtap="gotoSearch"><van-search vue-id="{{('8dd740cc-2')+','+('8dd740cc-1')}}" placeholder="搜索单号" disabled="{{true}}" bind:__l="__l"></van-search></view><view class="dewu-kinds" bindtap="kinds"><image src></image></view></view></van-sticky>

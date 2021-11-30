@@ -1,61 +1,65 @@
-<template>
-	<view>
-		<text class="home-title">文本</text>
-
-		<view class="home-title">
-			<text user-select="true">文字可以选中</text>
+<template>	
+	<view class="container">
+		<view class="top">
+			<Search/>
+			<TopNavigation/>
 		</view>
-		<view class="home-title">
-			<text selectable="true">文字可以选中</text>
+		
+		<view class="content">
+			<Column/>
 		</view>
+		
 	</view>
+	
 </template>
 
 <script>
+	// 
+	import Search from './components/search.vue';
+	import TopNavigation from './components/topNavigation.vue';
+	import Column from './components/column.vue';
+	
 	export default {
+		components:{
+			Search,
+			TopNavigation,
+			Column,
+		},
 		data() {
 			return {
-				title: ''
+				title: '',
+				searchItem:'',
 			}
 		},
 		onLoad() {
 
 		},
+		onReachBottom() {
+			console.log('页面触底了');
+		},
 		methods: {
-
+			search(){
+				console.log('1', this.searchItem);
+			}
 		}
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+<style scoped>
+	.container {
+		background-color: #e5ebf0;
+		width: 100%;
+		height: 100%;
 	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
-	.home-title {
-		padding: 10px;
-		font-size: 16px;
-		
+	.top {
+		width: 100%;
+		height: 260rpx;
+		background-color: #FFFFFF;
+		/* border-bottom:1px solid #000 ; */
+	}.content {
+		width: 100%;
+		height: 100%;
+		margin-top: 20rpx;
+		background-color: #eef3f3;
 	}
 </style>

@@ -3,10 +3,11 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "首页",
+				"navigationBarTitleText": "商城-演示",
 				// "navigationBarBackgroundColor":"#0000f7",// 首页标题背景
 				// "backgroundColor": "#f7e109" ,// 下拉刷新背景颜色 
-				"enablePullDownRefresh" : true// 是否可以下拉刷新
+				"enablePullDownRefresh" : true,// 是否可以下拉刷新
+				"onReachBottomDistance": 200// 控制下拉触底的距离
 			}
 		},
 		{
