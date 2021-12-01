@@ -1,24 +1,18 @@
 <template>
-	<view class="topNavigation-container">
-		<view class="navbar"> 
-			推荐
-		</view>
-	</view>
-	<view class="bottom-container">
-		<view>
-			正品保障
-		</view>
-		<view>
-			逐件查验
-		</view>
-		<view>
-			多重鉴别
+	<view class="status_bar">
+		<Search/>
+		<view class="navbar">
+			推荐 鞋类 潮服 手表 箱包 配饰 数码
 		</view>
 	</view>
 </template>
 
 <script>
+	import Search from './search.vue';
 	export default {
+		components:{
+			Search,
+		},
 		data() {
 			return {
 				title: ['推荐','鞋类','潮服','手表','箱包','配饰','数码','美妆','潮服','运动','女装','出行'],
@@ -28,19 +22,17 @@
 </script>
 
 <style scoped>
-	.topNavigation-container {
-		width: 100%;
-		height: 80rpx;
-		background-color: #eef4f9;
-	}
+	.status_bar {
+	       height: var(--status-bar-height);
+	       width: 100%;
+	   }
 	.navbar {
 		width: 100%;
 		height: 70rpx;
-		background-color: #babebe;
+		font-size: 36rpx;
+		background-color: #faffff;
 		align-items: center;
+		padding-left:20rpx;
 	}
-	.bottom-container {
-		display: flex;
-		font-size: 26rpx;
-	}
+
 </style>

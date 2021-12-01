@@ -1,28 +1,18 @@
 
-.content {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.container.data-v-57280228 {
+	background-color: #e5ebf0;
+	width: 100%;
+	height: 100%;
 }
-.logo {
-	height: 200rpx;
-	width: 200rpx;
-	margin-top: 200rpx;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50rpx;
+.top.data-v-57280228 {
+	width: 100%;
+	height: 180rpx;
+	background-color: #FFFFFF;
+	/* border-bottom:1px solid #000 ; */
 }
-.text-area {
-	display: flex;
-	justify-content: center;
-}
-.title {
-	font-size: 36rpx;
-	color: #8f8f94;
-}
-.home-title {
-	padding: 10px;
-	font-size: 16px;
+.content.data-v-57280228 {
+	width: 100%;
+	height: 100%;
+	background-color: #F1F1F1;
 }
 

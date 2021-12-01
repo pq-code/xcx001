@@ -17,7 +17,7 @@
     "borderStyle": "white",
     "list": [
       {
-        "text": "首页",
+        "text": "得物演示",
         "pagePath": "pages/index/index"
       },
       {

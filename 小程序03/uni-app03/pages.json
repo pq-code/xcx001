@@ -2,35 +2,36 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
-			"navigationBarTitleText": "商城-演示",
-			// "navigationBarBackgroundColor":"#0000f7",// 首页标题背景
-			// "backgroundColor": "#f7e109" ,// 下拉刷新背景颜色 
-			"enablePullDownRefresh" : true,// 是否可以下拉刷新
-			"onReachBottomDistance": 200,// 控制下拉触底的距离
 			"style": {
-				"app-plus":{
-					"scrollIndicator":"nooe",
-					"titleNView":{
-						"searchInput":{
-							"align":"left",
-							"backgroundColor":"#e7edf2",
-							"borderRadius":"4rpx",
-							"disabled":"true",
-							"placeholder":"搜索"
-							// "placeholderColor":"#e7edf2"
-						},
-						"buttons":[
-							{
-								"color":"#007AFF",
-								"colorPressed":"#ffffff",
-								"float":"right",
-								"fontSize":"22rpx",
-								"fontSrc":"../../../static/coen/iconfangp.png",
-								"text": ""
-							}
-						]
-					}
-				}
+				// "navigationBarTitleText": "商城-演示",
+				"navigationBarTitleText": "PM",
+				// "navigationBarBackgroundColor":"#0000f7",// 首页标题背景
+				"backgroundColor": "#F1F1F1" ,// 下拉刷新背景颜色 
+				"enablePullDownRefresh" : true,// 是否可以下拉刷新
+				"onReachBottomDistance": 200// 控制下拉触底的距离
+				// "app-plus":{
+				// 	"scrollIndicator":"nooe",
+				// 	"titleNView":{
+				// 		"searchInput":{
+				// 			"align":"left",
+				// 			"backgroundColor":"#dbe1e5",
+				// 			"borderRadius":"4rpx",
+				// 			"disabled":"true",
+				// 			"placeholder":"搜索"
+				// 			// "placeholderColor":"#e7edf2"
+				// 		},
+				// 		"buttons":[
+				// 			{
+				// 				"color":"#007AFF",
+				// 				"colorPressed":"#ffffff",
+				// 				"float":"right",
+				// 				"fontSize":"22rpx"
+				// 				// "fontSrc":"../../../static/coen/iconfangp.png",
+				// 				// "text": ""
+				// 			}
+				// 		]
+				// 	}
+				// }
 			}
 		},
 		{

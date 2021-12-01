@@ -1,0 +1,11 @@
+
+.bottom-container {
+	display: flex;
+	width: 100%;
+	background-color: #faffff;
+}
+.font{
+	font-size: 26rpx;
+	margin: 10rpx auto 10rpx auto;
+}
+

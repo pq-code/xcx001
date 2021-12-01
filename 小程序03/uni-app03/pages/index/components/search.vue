@@ -19,10 +19,10 @@
 	}
 	.search-input {
 		width: 68%;
-		height: 60rpx;
+		height: 66rpx;
 		margin: 10rpx 0 10rpx 40rpx; 
 		padding: 0 20rpx 0 70rpx;
-		background-color: #e7edf2;
+		background-color: #f2f9fe;
 		border-radius: 4rpx;
 	}
 	.search-image-view {

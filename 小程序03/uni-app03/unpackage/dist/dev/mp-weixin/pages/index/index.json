@@ -1,5 +1,12 @@
 {
-  "navigationBarTitleText": "商城-演示",
+  "navigationBarTitleText": "PM",
+  "backgroundColor": "#F1F1F1",
   "enablePullDownRefresh": true,
-  "usingComponents": {}
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "search": "/pages/index/components/search",
+    "top-navigation": "/pages/index/components/topNavigation",
+    "column": "/pages/index/components/column",
+    "title": "/pages/index/components/title"
+  }
 }

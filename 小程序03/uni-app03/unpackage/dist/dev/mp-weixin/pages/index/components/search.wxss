@@ -1,0 +1,25 @@
+
+.search-view.data-v-8b3e5b4a {
+	height: 100rpx;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.search-input.data-v-8b3e5b4a {
+	width: 68%;
+	height: 66rpx;
+	margin: 10rpx 0 10rpx 40rpx; 
+	padding: 0 20rpx 0 70rpx;
+	background-color: #f2f9fe;
+	border-radius: 4rpx;
+}
+.search-image-view.data-v-8b3e5b4a {
+	width: 64rpx;
+	height: 64rpx;
+	margin: 10rpx 25rpx 10rpx 25rpx;
+}
+.search-image.data-v-8b3e5b4a {
+	width: 100%;
+	height: 1000%;
+}
+

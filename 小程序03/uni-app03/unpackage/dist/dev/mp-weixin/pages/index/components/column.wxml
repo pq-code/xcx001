@@ -1,0 +1,1 @@
+<view class="column-container data-v-673ab909"><block wx:for="{{datas}}" wx:for-item="item" wx:for-index="__i0__"><view class="column-card data-v-673ab909"><card vue-id="{{'ffc62dc6-1-'+__i0__}}" class="data-v-673ab909" bind:__l="__l"></card></view></block></view>

@@ -12,8 +12,10 @@
 
 <style scoped>
 	.card-container {
-		width: 50%;
+	/* 	width: 100%; */
 		height: 420rpx;
-		background-color: #F1F1F1;
+		
+		padding: 4rpx 4rpx 4rpx 0;
+		background-color: #faffff;
 	}
 </style>
