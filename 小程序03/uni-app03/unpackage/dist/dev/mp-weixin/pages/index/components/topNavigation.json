@@ -1,6 +1,6 @@
 {
+  "component": true,
   "usingComponents": {
     "search": "/pages/index/components/search"
-  },
-  "component": true
+  }
 }

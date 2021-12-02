@@ -23,6 +23,6 @@
 	}
 	.font{
 		font-size: 26rpx;
-		margin: 10rpx auto 10rpx auto;
+		margin: 10rpx auto 20rpx auto;
 	}
 </style>

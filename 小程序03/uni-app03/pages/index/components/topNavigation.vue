@@ -29,10 +29,11 @@
 	.navbar {
 		width: 100%;
 		height: 70rpx;
-		font-size: 36rpx;
-		background-color: #faffff;
+		font-size: 34rpx;
+		background-color: #FFFFFF;
 		align-items: center;
-		padding-left:20rpx;
+		padding-left: 20rpx;
+		margin-top: 16rpx;
 	}
 
 </style>

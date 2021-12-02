@@ -14,8 +14,8 @@
 	.card-container {
 	/* 	width: 100%; */
 		height: 420rpx;
-		
-		padding: 4rpx 4rpx 4rpx 0;
+		margin:  2rpx ; 
+	/* 	padding: 4rpx 4rpx 4rpx 0; */
 		background-color: #faffff;
 	}
 </style>

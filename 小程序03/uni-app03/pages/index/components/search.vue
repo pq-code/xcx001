@@ -1,6 +1,6 @@
 <template>
 	<view class="search-view">
-		<input type="text" value="" placeholder="搜索单品" v-model="searchItem" class="search-input" disabled />
+		<input type="text" value="" placeholder="搜索单品" class="search-input" disabled />
 		<view class="search-image-view">
 			<image mode="widthFix" class="search-image" src="../../../static/coen/iconfangp.png"></image>
 		</view>
